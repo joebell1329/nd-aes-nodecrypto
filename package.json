@@ -1,0 +1,30 @@
+{
+  "name": "@joph-auth/nd-aes-nodecrypto",
+  "version": "1.0.0",
+  "description": "AES-GCM encryption with PBKDF2 derived keys using the NodeJS Crypto API",
+  "main": "dist/lib-cjs/index.js",
+  "types": "dist/lib-cjs/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepublishOnly": "yarn clean && yarn build",
+    "build": "yarn build:cjs && yarn build:esm",
+    "build:cjs": "tsc",
+    "build:esm": "tsc -m ES2020 --outDir dist/lib-esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joebell1329/nd-aes-nodecrypto"
+  },
+  "keywords": [
+    "AES",
+    "PBKDF2",
+    "crypto"
+  ],
+  "author": "Joe Bell",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.3"
+  }
+}

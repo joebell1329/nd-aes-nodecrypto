@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "outDir": "dist/lib-cjs",
+    "rootDir": "src",
+    "strict": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
