@@ -9,6 +9,8 @@ and therefore can only be used in NodeJS where the crypto module is available.
 For compatibility with the [web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API), 
 you should use `@joph-auth/nd-aes-webcrypto` instead.
 
+**Note: The web and node versions of this package are fully compatible with each other.**
+
 **WARNING: This has been created solely for educational purposes and 
 should not be used to encrypt sensitive data in real world applications.**
 
