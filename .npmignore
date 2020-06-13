@@ -1,4 +1,5 @@
-src
 .gitignore
+.idea
+src
 yarn.lock
 tsconfig.json
